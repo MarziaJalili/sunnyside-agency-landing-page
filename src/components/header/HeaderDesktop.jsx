@@ -4,13 +4,13 @@ import Navbar from "./Navbar";
 
 const HeaderDesktop = () => {
     return (
-        <header className="header-desktop">
+        <div className="header-desktop">
             <a href="#">
                 <img src={logoImage} alt="logo-image" />
             </a>
 
             <Navbar />
-        </header>
+        </div>
     )
 }
 

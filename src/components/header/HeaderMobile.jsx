@@ -20,7 +20,7 @@ const HeaderMobile = () => {
     }
 
     return (
-        <header className="header-mobile">
+        <div className="header-mobile">
             <a href="#">
                 <img src={logoImage} alt="logo-image" />
             </a>
@@ -30,7 +30,7 @@ const HeaderMobile = () => {
             </button>
 
             {showNavbar ? <Navbar /> : null}
-        </header>
+        </div>
     )
 }
 

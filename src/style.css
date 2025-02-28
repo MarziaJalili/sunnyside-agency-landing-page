@@ -82,8 +82,6 @@ p {
 /* header section */
 
 header {
-    display: flex;
-    justify-content: space-between;
     padding: 1.5rem;
     position: relative;
     z-index: 10;
@@ -130,6 +128,8 @@ header {
 /* mobile header */
 
 .header-mobile {
+    display: flex;
+    justify-content: space-between;
     padding-inline: 1rem;
 
     nav {
@@ -461,6 +461,8 @@ p {
     /* desktop header */
     .header-desktop {
         display: flex;
+        justify-content: space-between;
+
     }
 
     /* mobile header */
@@ -583,7 +585,11 @@ p {
     }
 
     .testimonials {
-        padding: 4rem 6rem;
+        padding: 8rem 5rem;
+
+        h2 {
+            margin-bottom: 2rem;
+        }
 
         ul {
             grid-template-columns: repeat(3, 1fr);

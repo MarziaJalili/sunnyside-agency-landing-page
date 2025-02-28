@@ -10,8 +10,10 @@ import HeaderDesktop from "./components/header/HeaderDesktop";
 const App = () => {
     return (
         <>
-            <HeaderDesktop />
-            <HeaderMobile />
+            <header>
+                <HeaderDesktop />
+                <HeaderMobile />
+            </header>
             <Hero />
             <main>
                 <Features />
