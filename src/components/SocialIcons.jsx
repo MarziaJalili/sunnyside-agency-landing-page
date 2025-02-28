@@ -6,9 +6,9 @@ const icons = [
 ];
 
 const SocialIcons = () => {
-    const socialIcons = icons.map((icon) => {
+    const socialIcons = icons.map((icon, index) => {
         return (
-            < li >
+            < li key={index}>
                 <a href="#">
                     {icon}
                 </a>
