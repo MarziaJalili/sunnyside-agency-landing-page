@@ -37,6 +37,18 @@
     box-sizing: border-box;
 }
 
+/* change the highlighting color */
+::selection {
+    background-color: #ffecbc;
+    color: black;
+}
+
+/* For , use the following */
+::-moz-selection {
+    background-color: #ffecbc;
+    color: black;
+}
+
 h1,
 h2,
 h3 {
@@ -482,6 +494,8 @@ p {
     p {
         max-width: 400px;
     }
+
+
 
     /* features */
 
