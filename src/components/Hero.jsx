@@ -4,7 +4,7 @@ import downArrow from "../images/icon-arrow-down.svg"
 
 const Hero = () => {
     return (
-        <section className="hero" role="banner">
+        <section className="hero" role="complementary">
             <picture>
                 <source media="(min-width: 46em)" srcSet={heroDesktop} />
                 <img src={heroMobile} alt="hero-image" />
