@@ -9,7 +9,7 @@ const HeaderMobile = () => {
 
     const toggleNavbar = () => {
         if (showNavbar) {
-            document.querySelector(".header-mobile nav")
+            document.querySelector(".header-mobile .nav")
                 .classList.add("fade-nav")
             setTimeout(() => {
                 setShowNavbar(false)

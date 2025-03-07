@@ -43,7 +43,6 @@
     color: black;
 }
 
-/* For , use the following */
 ::-moz-selection {
     background-color: #ffecbc;
     color: black;
@@ -109,7 +108,7 @@ header {
 .header-desktop {
     display: none;
 
-    nav {
+    .nav {
         ul {
             display: flex;
             gap: 2rem;
@@ -142,16 +141,15 @@ header {
 .header-mobile {
     display: flex;
     justify-content: space-between;
-    padding-inline: 1rem;
 
-    nav {
+    .nav {
         position: absolute;
         top: 60px;
         right: 0;
         background-color: var(--White);
         z-index: 1000;
-        margin-inline: 1rem;
-        width: calc(100% - 2rem);
+        margin-inline: 1.5rem;
+        width: calc(100% - 3rem);
         padding: calc(2.6rem + 35px) 5rem 2.6rem;
         display: grid;
         animation: show-nav 1s ease 1 forwards;
@@ -190,7 +188,7 @@ header {
         }
     }
 
-    nav.fade-nav {
+    .nav.fade-nav {
         animation: fade-nav 1s ease 1 forwards;
     }
 }
