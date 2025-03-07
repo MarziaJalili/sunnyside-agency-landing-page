@@ -9,7 +9,7 @@ const SocialIcons = () => {
     const socialIcons = icons.map((icon, index) => {
         return (
             < li key={index}>
-                <a href="#">
+                <a href="#" aria-label="Social Media Link">
                     {icon}
                 </a>
             </li >
