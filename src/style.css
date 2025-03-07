@@ -237,6 +237,24 @@ main {
         z-index: 1;
     }
 
+    &:hover .cursor {
+        position: fixed;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: var(--White);
+        transition: .15s;
+        transform: translate(-50%, -50%);
+        pointer-events: none;
+    }
+
+    h1:hover~.cursor {
+        transform: scale(8);
+        mix-blend-mode: overlay;
+        background-color: #3dbeff;
+        transition: .3s;
+    }
+
     .down-arrow {
         animation: down-arrow 2s ease infinite;
     }
@@ -268,6 +286,7 @@ p {
     li {
         display: grid;
         gap: 1rem;
+
 
         text-align: center;
 
